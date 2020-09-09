@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Control Apache</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="frame">
+            <div class="service_name">
+                <span id="service_name">service name = </span>
+            </div>
+            <div class="service_state">
+                <span id="service_state"></span>
+            </div>
+            <div class="enable_service">
+                <span>
+                    Включить сервис <input type="checkbox" id="enable_service"> 
+                </span>
+            </div>
+            <form method="POST">
+                <button id="start" type="submit">start</button>
+                <button id="stop" type="submit">stop</button>
+                <button id="restart" type="submit">restart</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.frame{
+    display: inline-block;
+}
+
+button{
+    padding: 4px;
+    margin: 10px;
+}
+
+
